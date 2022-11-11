@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   console.log("Injected variables:");
-  console.log(import.meta.env);
+  console.log(import.meta.env.TEST);
 
   return (
     <div className="App">
